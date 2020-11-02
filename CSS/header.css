@@ -1,0 +1,19 @@
+header{
+    background-image: url("../assets/Beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerDetail{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.title{
+    font-size: 72px;
+}

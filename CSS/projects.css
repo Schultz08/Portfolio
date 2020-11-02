@@ -1,0 +1,40 @@
+#myProjects{
+    padding: 3rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(48deg, rgba(6, 187, 219, 0.8) 0%, rgba(208, 68, 145, 0) 50%, rgba(4, 64, 133, 0.8) 100%);
+    position: relative;
+}
+
+.projectContainer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 3px inset rgba(4, 64, 133, 0.8);
+    background-color: rgba(6, 187, 219, 0.1);
+    overflow: auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 0px 8px black;
+}
+
+.projectContainer::after{
+    content: "";
+    position: absolute;
+    background-image: url(../assets/waterFix.jpg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+.projectItem{
+    cursor: pointer;
+}
+
+.col-sm{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
